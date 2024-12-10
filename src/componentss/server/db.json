@@ -1,0 +1,88 @@
+
+{   
+    "data": [
+        {
+            "id": "1",
+            "image": "https://www.evernote.design/assets/images/lapa.jpg",
+            "title": "Lapa Ninja",
+            "description": "The best landing page design inspiration from around the web. 5800+ landing page examples and updated daily."
+        },
+        {
+            "id": "2",
+            "image": "https://www.evernote.design/assets/images/landing-love.jpg",
+            "title": "Landing.Love",
+            "description": "Check out this amazing collection of over 600 animation websites! It's a full video record showcasing the best designs "
+        },
+        {
+            "id": "3",
+            "image": "https://www.evernote.design/assets/images/rebrand-gallery.jpg",
+            "title": "Rebrand Gallery",
+            "description": "A collection of the best new design systems, visual identity introductions and rebrand videos."
+        },
+        {
+            "id": "4",
+            "image": "https://www.evernote.design/assets/images/made-in-webflow.jpg",
+            "title": "Made in Webflow",
+            "description": "Check out our list of the most popular responsive websites made with Webflow by professional web designers."
+        },
+        {
+            "id": "5",
+            "image": "https://www.evernote.design/assets/images/brandsite-design.jpg",
+            "title": "Brandsite Design",
+            "description": "A collection of purpose-built, digital, accessible guidelines from global brands. The most effective brand "
+        },
+        {
+            "id": "6",
+            "image": "https://www.evernote.design/assets/images/bentogrids.jpg",
+            "title": "Bento Grids",
+            "description": "Bento Grids is a curated collection of tiles-based layouts that were popularized by Apple with their summary."
+        },
+        {
+            "id": "7",
+            "image": "https://www.evernote.design/assets/images/killerportfolio.jpg",
+            "title": "Killer Portfolio",
+            "description": "Portfolio website inspiration. A showcase of beautifully designed, super-effective portfolios from individuals "
+        },
+        {
+            "id": "8",
+            "image": "https://www.evernote.design/assets/images/personalsites.jpg",
+            "title": "PersonalSit.es",
+            "description": "Yes we got hot and fresh sites. Personal sites are sick as hell, so this site was built so we can all discover."
+            
+        },
+        {
+            "id": "9",
+            "image": "https://www.evernote.design/assets/images/illustrationsuniverse.jpg",
+            "title": "Illustrations universe",
+            "description": "Yes we got hot and fresh sites. Personal sites are sick as hell, so this site was built so we can all discover ."
+            
+            
+        },
+        {
+            "id": "10",
+            "image": "https://www.evernote.design/assets/images/designspells.jpg",
+            "title": "Design spells",
+            "description": "Yes we got hot and fresh sites. Personal sites are sick as hell, so this site was built so we can all discover ."
+            
+            
+        },
+        {
+            "id": "11",
+            "image": "https://www.evernote.design/assets/images/deck-gallery.jpg",
+            "title": "Deck gallery",
+            "description": "Yes we got hot and fresh sites. Personal sites are sick as hell, so this site was built so we can all discover ."
+            
+            
+        },
+        {
+            "id": "12",
+            "image": "https://www.evernote.design/assets/images/brandsite-design.jpg",
+            "title": "Brandsite Design",
+            "description": "Yes we got hot and fresh sites. Personal sites are sick as hell, so this site was built so we can all discover ."
+            
+            
+        }
+        
+    ]
+
+}

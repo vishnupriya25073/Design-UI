@@ -1,0 +1,91 @@
+
+.nav-link, .nav-item {
+  color: white; 
+  text-decoration: none; 
+  position: relative;
+  padding-right: 0%;
+  cursor: pointer;
+}
+.nav-item:hover,.nav-link:hover{
+  color:gold;
+  cursor: pointer;
+}
+
+ .nav-item:hover::after {
+  content: ""; /* Create the underline */
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Thickness of the underline */
+  bottom: 0; /* Position at the bottom of the text */
+  left: 0;
+  background-color: goldenrod; /* Goldenrod color */
+  transform: scaleX(1);
+  transition: transform 0.3s ease; /* Smooth underline animation */
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: goldenrod;
+  color:white;
+  transform: scaleX(0); 
+  transition: transform 0.3s ease;
+}
+.sidebar {
+  position: sticky; /* Or use position: fixed if you want it always in view */
+  top: 0;
+  height: 100vh; /* Full viewport height */
+  width: 250px; /* Adjust to your desired width */
+  overflow-y: auto; /* Enable scrolling within the sidebar */
+  background-color: #343a40; /* Bootstrap dark background */
+  color: #fff;
+  overflow-x: hidden;
+  /* padding: 10px; */
+  /* padding-left: 0% !important; */
+  /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);  */
+}
+
+.nav-link :hover{
+  color: #ffc107; /* Gold color for links */
+}
+
+.nav-link{
+  color: #fff; /* Change link color on hover */
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar nav {
+  margin: 0;
+  min-height: min-content;
+  padding-bottom: 1rem;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+   /* position: absolute;
+  left: 76px;
+  top:50px; */
+}
+
+

@@ -1,0 +1,102 @@
+/* Sidebar Default Styling */
+.container {
+  max-height: 100vh;
+  /* overflow-y: scroll; */
+  overflow-x:hidden;
+  text-decoration: none;
+}
+.column.col-1, .column.col-10, .column.col-11, .column.col-12, .column.col-2, .column.col-3, .column.col-4, .column.col-5, .column.col-6, .column.col-7, .column.col-8, .column.col-9, .column.col-auto{
+  flex:none;
+}
+.container .column,.containers{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+@media(max-width:600px){
+ .col-sm-6{
+  width: 50%;
+ }
+ .col-3{
+  width:25%;
+ }
+ 
+}
+.sticky-section{
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  /* padding-top: 1.5rem; */
+  color: #fff;
+  border-top: 1px solid #201c29;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  
+}
+  
+.img-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.05); /* Slightly enlarge the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+/* .title-hover:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+.title-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+} */
+
+/* .title {
+  /* background-color: #ddd;
+  border: none; */
+  /* color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+} */ 
+
+.title-hover:hover {
+  color:goldenrod;
+  cursor:pointer;
+  text-decoration: none;
+}
+/* .content-container {
+  scrollbar-width: thin; /* For Firefox */
+  /* scrollbar-color: #888 #333; /* Thumb and track colors */
+/* Main layout styles */
+/* .main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Unified scrolling for the entire page */
+
+
+/* header {
+  background-color: #111;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.content-container {
+  flex: 1; /* Takes up the rest of the space */
+  /* padding: 20px;
+}*/
+
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+} 
